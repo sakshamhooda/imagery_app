@@ -49,6 +49,8 @@ pip install fastapi uvicorn pytesseract Pillow
 The tests have been cloned from [here] (https://github.com/AbhilakshSinghReen/tesseract-ocr-assignment-api-tester). 
 You may follow the instructions as it is on the given repo or simply put it into your tests folder.
 
+
+
 Run the app server using either of following commands :
 
 ```bash 
@@ -69,6 +71,8 @@ pytest
 ## Endpoint verification 
 
 You can use tools like curl, Postman, or any API testing tool to verify the endpoints.
+
+<span style="color: purple;">A file <span style="color: red;">main_withlogs.py</span> has been created as a supplementary of <span style="color: red;">main.py</span> with additional logs for debugging</span>
 
 Extract text
 
